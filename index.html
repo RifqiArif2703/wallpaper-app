@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpaper Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Wallpaper App</h1>
+      <p>Discover and download high-quality wallpapers for free.</p>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Cari wallpaper (contoh: nature, cyberpunk)">
+        <button id="search-button">Cari</button>
+        <button id="random-button">Random Wallpaper</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="image-grid" id="image-grid"></div>
+    <div class="image-preview" id="image-preview">
+      <div class="preview-content">
+        <img id="preview-image" src="" alt="">
+        <a id="download-link" href="" download>
+          <button>Download</button>
+        </a>
+        <button id="close-preview">Tutup</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
